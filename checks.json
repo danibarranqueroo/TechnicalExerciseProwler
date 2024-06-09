@@ -1,0 +1,17 @@
+[
+    {
+        "check": "Ensure no security groups allow ingress from 0.0.0.0/0 to port 22",
+        "status": "FAIL",
+        "recommendation": "Restrict ingress to specific IP addresses."
+    },
+    {
+        "check": "Ensure CloudTrail is enabled in all regions",
+        "status": "PASS",
+        "recommendation": ""
+    },
+    {
+        "check": "Ensure S3 buckets are not publicly accessible",
+        "status": "FAIL",
+        "recommendation": "Review and update S3 bucket policies."
+    }
+]
